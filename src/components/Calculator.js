@@ -1,44 +1,52 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './Calculator.css';
 
-export default function Calculator() {
-  return (
-    <div>
-      <div className="calulator-container">
-        <table>
-          <tr>
-            <td colSpan="4">0</td>
-          </tr>
-          <tr>
-            <td>AC</td>
-            <td>+/-</td>
-            <td>%</td>
-            <td>&#247;</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>x</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>+</td>
-          </tr>
-          <tr>
-            <td colSpan="2">0</td>
-            <td>.</td>
-            <td>=</td>
-          </tr>
-        </table>
+export default class Calculator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <div>
+        <div>
+          <table>
+            <tr>
+              <td className="result-field" colSpan="4">0</td>
+            </tr>
+            <tr>
+              <td className="btn-type-1">AC</td>
+              <td className="btn-type-1">+/-</td>
+              <td className="btn-type-1">%</td>
+              <td className="btn-type-3">&#247;</td>
+            </tr>
+            <tr>
+              <td className="btn-type-1">7</td>
+              <td className="btn-type-1">8</td>
+              <td className="btn-type-1">9</td>
+              <td className="btn-type-3">x</td>
+            </tr>
+            <tr>
+              <td className="btn-type-1">4</td>
+              <td className="btn-type-1">5</td>
+              <td className="btn-type-1">6</td>
+              <td className="btn-type-3">-</td>
+            </tr>
+            <tr>
+              <td className="btn-type-1">1</td>
+              <td className="btn-type-1">2</td>
+              <td className="btn-type-1">3</td>
+              <td className="btn-type-3">+</td>
+            </tr>
+            <tr>
+              <td className="btn-type-1" colSpan="2">0</td>
+              <td className="btn-type-1">.</td>
+              <td className="btn-type-3">=</td>
+            </tr>
+          </table>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
