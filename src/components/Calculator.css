@@ -1,0 +1,23 @@
+.calulator-container {
+  background-color: red;
+}
+
+table {
+  width: 20rem;
+  height: 15rem;
+  text-align: center;
+}
+
+.btn-type-1 {
+  background-color: #e0e0e0;
+}
+
+.result-field {
+  background-color: #858694;
+  text-align: right;
+  color: white;
+}
+
+.btn-type-3 {
+  background-color: #f5913e;
+}
