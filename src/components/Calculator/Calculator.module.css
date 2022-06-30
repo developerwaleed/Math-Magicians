@@ -1,0 +1,51 @@
+.calulator-container {
+  background-color: red;
+}
+
+table {
+  width: 20rem;
+  height: 15rem;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  border: none;
+  width: 5.5rem;
+  height: 2.5rem;
+}
+
+.btn-type-1 {
+  background-color: #e0e0e0;
+}
+
+.btn-type-1:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 65%);
+}
+
+.result-field {
+  background-color: #858694;
+  text-align: right;
+  color: white;
+  height: 2.5rem;
+}
+
+.btn-type-3 {
+  background-color: #f5913e;
+}
+
+.btn-type-3:hover {
+  cursor: pointer;
+  background-color: #af5a15;
+}
+
+.zero {
+  width: 11.1rem;
+  background-color: #e0e0e0;
+}
+
+.zero:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 65%);
+}
