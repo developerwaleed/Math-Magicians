@@ -4,11 +4,11 @@ import styles from './Quote.module.css';
 const Quote = () => (
   <div className={styles.quote}>
     <div className={styles['quote-text']}>
-      &quot;Mathmatics is not about numbers, equation, computations, or
-      algorithms: it is about understanding.&quot;
+      &quot;Without mathematics, there’s nothing you can do. Everything around
+      you is mathematics. Everything around you is numbers..&quot;
     </div>
     <br />
-    <span>-William Paul Thurston</span>
+    <span>-Shakuntala Devi, Indian writer and mental calculator</span>
   </div>
 );
 
