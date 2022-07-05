@@ -2,22 +2,19 @@ import React from 'react';
 import styles from './Home.module.css';
 
 const Home = () => (
-  <div className={styles.home}>
+  <div className={styles.homeContainer}>
     <h2>Welcome to my CalCulator!</h2>
     <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industrys standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets
-    </p>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industrys standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries
+      A calculator is a device that performs arithmetic operations on numbers.
+      Basic calculators can do only addition, subtraction, multiplication and
+      division mathematical calculations. However, more sophisticated
+      calculators can handle exponential operations, square roots, logarithms,
+      trigonometric functions and hyperbolic functions. Internally, some
+      calculators perform all these functions by repeated addition processes.
+      <br />
+      Most calculators these days require electricity to operate or are
+      battery-powered calculators. Calculators work by performing programmed
+      functions based on numerical inputs
     </p>
   </div>
 );
