@@ -18,7 +18,7 @@ const Calculator = () => {
 
   return (
     <div>
-      <div>
+      <div className={style.CalContainer}>
         <table>
           <tr>
             <td className={style['result-field']} colSpan="4">

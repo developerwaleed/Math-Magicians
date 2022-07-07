@@ -1,0 +1,14 @@
+.homeContainer {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 20px;
+}
+
+.homeContainer h2 {
+  padding-bottom: 70px;
+}

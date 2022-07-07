@@ -1,0 +1,16 @@
+nav {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItems {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+}
+
+.navItems li:last-child {
+  padding-right: 5rem;
+}
