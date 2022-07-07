@@ -19,7 +19,8 @@
 
 ## Live Demo ✔️
 
-[Live Demo Link]()
+[Heroku](https://math-magicians-23.herokuapp.com/)
+[Heroku](https://math-magicians-23.herokuapp.com/)
 
 
 ## Getting Started 🙌
