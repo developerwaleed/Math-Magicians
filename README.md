@@ -20,7 +20,7 @@
 ## Live Demo ✔️
 
 [Heroku](https://math-magicians-23.herokuapp.com/)
-[Heroku](https://math-magicians-23.herokuapp.com/)
+[Netlify](https://62c6ed1af84c252a67b4c0c1--neon-manatee-bec333.netlify.app/)
 
 
 ## Getting Started 🙌
